@@ -25,7 +25,7 @@
 @REM
 @REM Optional ENV vars
 @REM M2_HOME - location of maven2's installed home dir
-@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+@REM MAVEl_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
 @REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a keystroke before ending
 @REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
 @REM     e.g. to debug Maven itself, use
@@ -36,7 +36,7 @@
 @REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
 @echo off
 @REM set title of command window
-title %0
+title %98
 @REM enable echoing by setting MAVEN_BATCH_ECHO to 'on'
 @if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
 
@@ -60,12 +60,9 @@ set ERROR_CODE=0
 @REM ==== START VALIDATION ====
 if not "%JAVA_HOME%" == "" goto OkJHome
 
-echo.
-echo Error: JAVA_HOME not found in your environment. >&2
-echo Please set the JAVA_HOME variable in your environment to match the >&2
-echo location of your Java installation. >&2
-echo.
-goto error
+Quantum
+Quantum:Quantum
+
 
 :OkJHome
 if exist "%JAVA_HOME%\bin\java.exe" goto init
